@@ -1,0 +1,3302 @@
+[p LITE_MODE AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18LF45K50 ]
+[d frameptr 4065 ]
+"53 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware\PICoRa_Mote.X\main.c
+[e E6899 . `uc
+USB 0
+MOTE 1
+]
+"55
+[e E6904 . `uc
+MAIN_STARTUP 0
+MAIN_CDC_MODE 1
+MAIN_HOST_MODE 2
+]
+"57
+[e E6910 . `uc
+APP_LORA_STARTUP 0
+APP_HOST_RUNNING 1
+]
+"60
+[e E6833 . `uc
+MOTE_HARDWARE 0
+MOTE_STARTUP 1
+MOTE_JOINING 2
+MOTE_RUNNING 3
+MOTE_SWAP 4
+]
+"102
+[e E6866 . `uc
+USB_STARTUP 0
+USB_RUNNING 1
+USB_CDC 2
+]
+"62 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[e E6062 . `uc
+moteStartup 0
+moteReset 1
+moteJoinMethod 2
+moteCheckAbp 3
+moteWaitAbp 4
+moteCheckOtaa 5
+moteWaitOtaa 6
+moteJoined 7
+moteGetDr 8
+moteNeedKeys 9
+moteComFailure 10
+]
+"70
+[e E5864 . `uc
+MOTE_HARDWARE 0
+MOTE_STARTUP 1
+MOTE_JOINING 2
+MOTE_RUNNING 3
+MOTE_SWAP 4
+]
+"73
+[e E6082 . `uc
+runningEnter 0
+runningSensor 1
+runningSensorMenu 2
+runningDataRateDisplay 3
+runningDataRateSelect 4
+runningSensorDisplay 5
+runningUplink 6
+runningUplinkSelect 7
+runningUplinkTransmit 8
+runningPortNumber 9
+runningDownlink 10
+runningDownlinkDisplay 11
+runningMenuTimeout 12
+runningPeriodicWakeUpLength 13
+runningPeriodicDisplay 14
+runningSleep 15
+]
+"120
+[e E6169 . `uc
+periodicDisabled 0
+periodicFive 1
+periodicTen 2
+periodicQuarter 3
+periodicHalf 4
+periodicFull 5
+]
+"132
+[e E6182 . `uc
+rn2483 0
+rn2903 1
+]
+"194
+[e E5836 . `uc
+NoButton 0
+ShortPress1 1
+ShortPress2 2
+Released 3
+]
+"199
+[e E5902 . `uc
+NO_USB 0
+CDC_USB 1
+USB_BAT 2
+]
+"244
+[e E6028 . `uc
+Volt_channel 0
+Temp_channel 2
+Light_channel 3
+FVR_channel 31
+]
+"56 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[e E5833 . `uc
+USB_STARTUP 0
+USB_RUNNING 1
+USB_CDC 2
+]
+"84
+[e E5838 . `uc
+NO_USB 0
+CDC_USB 1
+USB_BAT 2
+]
+"107
+[e E6230 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"120
+[e E5867 . `uc
+NoButton 0
+ShortPress1 1
+ShortPress2 2
+Released 3
+]
+"309
+[e E5981 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"310
+[e E6239 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"50 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/buttons.c
+[e E5748 . `uc
+NoButton 0
+ShortPress1 1
+ShortPress2 2
+Released 3
+]
+"383 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/SSD1306oLED.c
+[e E5868 . `uc
+Normal 0
+Inverse 1
+]
+"87 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/adc.c
+[e E5749 . `uc
+Volt_channel 0
+Temp_channel 2
+Light_channel 3
+FVR_channel 31
+]
+"111 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[e E291 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"505
+[e E42 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"1678
+[e E300 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"372 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device_cdc.c
+[e E40 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"373
+[e E298 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"183 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/PICoRatestAll.c
+[e E5749 . `uc
+Volt_channel 0
+Temp_channel 2
+Light_channel 3
+FVR_channel 31
+]
+"134 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moduleResync moduleResync `(v  1 e 1 0 ]
+"167
+[v _moteApp_delayms moteApp_delayms `(v  1 e 1 0 ]
+"175
+[v _moduleSleep moduleSleep `(v  1 e 1 0 ]
+"183
+[v _MOTEapp_handlerState MOTEapp_handlerState `(v  1 e 1 0 ]
+"188
+[v _moteHandler moteHandler `(E6833  1 e 1 0 ]
+"294
+[v _moteJoiningProcess moteJoiningProcess `(E6062  1 s 1 moteJoiningProcess ]
+"491
+[v _moteRunningProcess moteRunningProcess `(E6082  1 s 1 moteRunningProcess ]
+"983
+[v _MOTEapp_SetDataRateSetting MOTEapp_SetDataRateSetting `(v  1 e 1 0 ]
+"1029
+[v _MOTEapp_TimerBasedTask MOTEapp_TimerBasedTask `(v  1 e 1 0 ]
+"1076
+[v _MOTEapp_getModuleResponse MOTEapp_getModuleResponse `(uc  1 e 1 0 ]
+"1106
+[v _MOTEapp_setResponseReady MOTEapp_setResponseReady `(v  1 e 1 0 ]
+"1111
+[v _EndLine EndLine `(v  1 s 1 EndLine ]
+"1117
+[v _sendCommand sendCommand `(v  1 s 1 sendCommand ]
+"1127
+[v _sendDataCommand sendDataCommand `(v  1 s 1 sendDataCommand ]
+"1159
+[v _hexToStr hexToStr `(uc  1 s 1 hexToStr ]
+"1178
+[v _moteApp_GoToSleep moteApp_GoToSleep `(uc  1 s 1 moteApp_GoToSleep ]
+"1262
+[v _moteApp_clearCommand moteApp_clearCommand `(v  1 e 1 0 ]
+"1267
+[v _moteApp_toggleLeds moteApp_toggleLeds `(v  1 e 1 0 ]
+"1290
+[v _moteApp_clearBuffers moteApp_clearBuffers `(v  1 s 1 moteApp_clearBuffers ]
+"1310
+[v _moteApp_add8bToDataBuffer moteApp_add8bToDataBuffer `(v  1 e 1 0 ]
+"1332
+[v _moteApp_addToDataBuffer moteApp_addToDataBuffer `(uc  1 e 1 0 ]
+"1350
+[v _moteApp_convertSensorValue moteApp_convertSensorValue `(ui  1 e 2 0 ]
+"1371
+[v _moteApp_testSensors moteApp_testSensors `(v  1 e 1 0 ]
+"1390
+[v _moteApp_setSensorsInput moteApp_setSensorsInput `(v  1 e 1 0 ]
+"1408
+[v _moteApp_getTempValue moteApp_getTempValue `(*.39uc  1 e 2 0 ]
+"1422
+[v _moteApp_getLightValue moteApp_getLightValue `(*.39uc  1 e 2 0 ]
+"1440
+[v _moteApp_setLightString moteApp_setLightString `(v  1 e 1 0 ]
+"1455
+[v _moteApp_lightStringSize moteApp_lightStringSize `(uc  1 e 1 0 ]
+"1459
+[v _moteApp_getLightString moteApp_getLightString `(*.39uc  1 e 2 0 ]
+"54 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/PICoRatestAll.c
+[v _delayms delayms `(v  1 e 1 0 ]
+"62
+[v _PICoRa_test_powerup PICoRa_test_powerup `(v  1 e 1 0 ]
+"86
+[v _test_oled test_oled `(v  1 e 1 0 ]
+"99
+[v _test_switch test_switch `(v  1 e 1 0 ]
+"134
+[v _test_comms test_comms `(v  1 e 1 0 ]
+"147
+[v _test_leds test_leds `(v  1 e 1 0 ]
+"78 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _USBapp_handlerState USBapp_handlerState `(v  1 e 1 0 ]
+"86
+[v _USBapp_Handler USBapp_Handler `(v  1 e 1 0 ]
+"134
+[v _USBapp_exitCDC USBapp_exitCDC `(E5902  1 e 1 0 ]
+"139
+[v _USBapp_exitCDCState USBapp_exitCDCState `(v  1 e 1 0 ]
+"144
+[v _USBapp_CdcEmulatorInitialize USBapp_CdcEmulatorInitialize `(v  1 e 1 0 ]
+"162
+[v _USBapp_DeviceCdcEmulatorHandler USBapp_DeviceCdcEmulatorHandler `(v  1 e 1 0 ]
+"263
+[v _USBapp_setrxByteFlag USBapp_setrxByteFlag `(v  1 e 1 0 ]
+"268
+[v _USBapp_getrxByteFlag USBapp_getrxByteFlag `(uc  1 e 1 0 ]
+"273
+[v _USART_mySetLineCodingHandler USART_mySetLineCodingHandler `(v  1 e 1 0 ]
+"308
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+"49 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/buttons.c
+[v _service_pushbutton service_pushbutton `(E5836  1 e 1 0 ]
+"241 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/SSD1306oLED.c
+[v _Set_Page_Address Set_Page_Address `(v  1 e 1 0 ]
+"249
+[v _Set_Column_Address Set_Column_Address `(v  1 e 1 0 ]
+"256
+[v _oled_setFont oled_setFont `(v  1 e 1 0 ]
+"264
+[v _oled_putUint8 oled_putUint8 `(v  1 e 1 0 ]
+"278
+[v _oled_putint8 oled_putint8 `(v  1 e 1 0 ]
+"300
+[v _oled_putUint16 oled_putUint16 `(v  1 e 1 0 ]
+"318
+[v _oled_putChar oled_putChar `(v  1 e 1 0 ]
+"331
+[v _oled_putString oled_putString `(v  1 e 1 0 ]
+"348
+[v _oled_clear oled_clear `(v  1 e 1 0 ]
+"356
+[v _oled_clearRow oled_clearRow `(v  1 e 1 0 ]
+"366
+[v _oled_init oled_init `(v  1 e 1 0 ]
+"388
+[v _oled_devInit oled_devInit `(v  1 e 1 0 ]
+"411
+[v _oled_setDisplay oled_setDisplay `(v  1 e 1 0 ]
+"425
+[v _oled_displayOff oled_displayOff `(v  1 e 1 0 ]
+"430
+[v _oled_writeCommand oled_writeCommand `(v  1 e 1 0 ]
+"442
+[v _oled_writeData oled_writeData `(v  1 e 1 0 ]
+"454
+[v _oled_setContrastControlRegister oled_setContrastControlRegister `(v  1 e 1 0 ]
+"462
+[v _oled_initialDispayLine oled_initialDispayLine `(v  1 e 1 0 ]
+"469
+[v _oled_powerControl oled_powerControl `(v  1 e 1 0 ]
+"482
+[v _oled_regulorResistorSelect oled_regulorResistorSelect `(v  1 e 1 0 ]
+"45 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/TMRapp.c
+[v _TMRapp_Tick TMRapp_Tick `(v  1 e 1 0 ]
+"51
+[v _TMRapp_ClearBitFlags TMRapp_ClearBitFlags `(v  1 e 1 0 ]
+"57
+[v _TMRapp_Handler TMRapp_Handler `(v  1 e 1 0 ]
+"65 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"113
+[v _ADC_GetConversion ADC_GetConversion `(ui  1 e 2 0 ]
+"136
+[v _ADC_TempConversion ADC_TempConversion `(uc  1 e 1 0 ]
+"58 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+"95
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+"77 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+[v i2_EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"117
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"139
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"162
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
+"181
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+"202
+[v _EUSART_FlushBuffer EUSART_FlushBuffer `(v  1 e 1 0 ]
+"55 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"93 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/mcc.c
+[v _PICoRa_Initialize PICoRa_Initialize `(v  1 e 1 0 ]
+"106
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"59 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/memory.c
+[v _FLASH_ReadByte FLASH_ReadByte `(uc  1 e 1 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"143
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"166
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"188
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"51 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"81 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/spi.c
+[v _SPI_Exchange8bit SPI_Exchange8bit `(uc  1 e 1 0 ]
+"63 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"92
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"152
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"58 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"77
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+"87
+[v _TMR2_ReadTimer TMR2_ReadTimer `(uc  1 e 1 0 ]
+"67 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr3.c
+[v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
+"96
+[v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
+"161
+[v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
+"237 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+"428
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+"645
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+"757
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+"1046
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 1 0 ]
+"1104
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+"1173
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+"1228
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+"1282
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+"1437
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+"1518
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+"1629
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+"1704
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+"1773
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+"1846
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+"1889
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+"1944
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+"2004
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+"2097
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+"2169
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+"2223
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+"2317
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+"2385
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+"184 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device_cdc.c
+[v _USBCheckCDCRequest USBCheckCDCRequest `(v  1 e 1 0 ]
+"296
+[v _CDCInitEP CDCInitEP `(v  1 e 1 0 ]
+"432
+[v _getsUSBUSART getsUSBUSART `(uc  1 e 1 0 ]
+"503
+[v _putUSBUSART putUSBUSART `(v  1 e 1 0 ]
+"783
+[v _CDCTxService CDCTxService `(v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"70 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware\PICoRa_Mote.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"62 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _activeState activeState `E6062  1 e 1 0 ]
+"64
+[v _moduleResonseBuffer moduleResonseBuffer `[64]uc  1 s 64 moduleResonseBuffer ]
+"65
+[v _responsePortNum responsePortNum `[3]uc  1 s 3 responsePortNum ]
+"66
+[v _responseId responseId `[16]uc  1 s 16 responseId ]
+"67
+[v _responseData responseData `[32]uc  1 s 32 responseData ]
+"69
+[v _responseReady responseReady `uc  1 s 1 responseReady ]
+"70
+[v _moteState moteState `E5864  1 s 1 moteState ]
+"73
+[v _runningState runningState `E6082  1 e 1 0 ]
+"106
+[v _moduleBufferIndex moduleBufferIndex `uc  1 s 1 moduleBufferIndex ]
+"108
+[v _light light `ui  1 s 2 light ]
+"109
+[v _temperature temperature `ui  1 s 2 temperature ]
+"110
+[v _randomPortNum randomPortNum `uc  1 s 1 randomPortNum ]
+"113
+[v _periodicUpValue periodicUpValue `uc  1 s 1 periodicUpValue ]
+"114
+[v _periodicTimerValue periodicTimerValue `uc  1 s 1 periodicTimerValue ]
+"116
+[v _dataRateValue dataRateValue `uc  1 s 1 dataRateValue ]
+"118
+[v _menuTimeout menuTimeout `uc  1 s 1 menuTimeout ]
+"120
+[v _periodicState periodicState `E6169  1 s 1 periodicState ]
+"125
+[v _secTicker secTicker `uc  1 s 1 secTicker ]
+"126
+[v _minTicker minTicker `uc  1 s 1 minTicker ]
+"127
+[v _m10SecTicker m10SecTicker `ui  1 s 2 m10SecTicker ]
+"128
+[v _sleepTicker sleepTicker `uc  1 s 1 sleepTicker ]
+"132
+[v _rnModule rnModule `E6182  1 s 1 rnModule ]
+"487
+[v _dataBuffer dataBuffer `[16]uc  1 s 16 dataBuffer ]
+"1436
+[v _storedLight storedLight `[5]uc  1 e 5 0 ]
+"1437
+[v _lightStringSize lightStringSize `uc  1 e 1 0 ]
+"1438
+[v _clearLight clearLight `[5]uc  1 e 5 0 ]
+"56 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _usbState usbState `E5833  1 s 1 usbState ]
+"57
+[v _USB_Buffer USB_Buffer `[64]uc  1 s 64 USB_Buffer ]
+"58
+[v _rxByteFlag rxByteFlag `VEuc  1 s 1 rxByteFlag ]
+"60
+[v _NextUSBOut NextUSBOut `uc  1 e 1 0 ]
+"61
+[v _RS232_Out_Data_Rdy RS232_Out_Data_Rdy `uc  1 e 1 0 ]
+"62
+[v _LastRS232Out LastRS232Out `uc  1 e 1 0 ]
+"63
+[v _RS232cp RS232cp `uc  1 e 1 0 ]
+"84
+[v _exitUSB exitUSB `E5838  1 e 1 0 ]
+"59 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/SSD1306oLED.c
+[v _Contrast_level Contrast_level `uc  1 e 1 0 ]
+"86
+[v _OledFont0 OledFont0 `C[768]uc  1 e 768 0 ]
+"222
+[v _selectedFont selectedFont `*.25Cuc  1 e 2 0 ]
+"42 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/TMRapp.c
+[v _timerMsTickCount timerMsTickCount `ui  1 s 2 timerMsTickCount ]
+"43
+[v _timerMinTickCount timerMinTickCount `ui  1 s 2 timerMinTickCount ]
+[s S21 . 1 `uc 1 mSecTick 1 0 :1:0 
+`uc 1 mSecTenTick 1 0 :1:1 
+`uc 1 mSecHundredTick 1 0 :1:2 
+`uc 1 SecTick 1 0 :1:3 
+`uc 1 MinTick 1 0 :1:4 
+`uc 1 HourTick 1 0 :1:5 
+`uc 1 HalfDayTick 1 0 :1:6 
+`uc 1 DayTick 1 0 :1:7 
+]
+"58 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers\TMRapp.h
+[u S30 . 1 `uc 1 TicksBitMap 1 0 `S21 1 . 1 0 ]
+[v _appTimer appTimer `S30  1 e 1 0 ]
+"61 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/eusart.c
+[v _eusartTxHead eusartTxHead `uc  1 s 1 eusartTxHead ]
+"62
+[v _eusartTxTail eusartTxTail `uc  1 s 1 eusartTxTail ]
+"63
+[v _eusartTxBuffer eusartTxBuffer `[64]uc  1 s 64 eusartTxBuffer ]
+"64
+[v _eusartTxBufferRemaining eusartTxBufferRemaining `VEuc  1 e 1 0 ]
+"66
+[v _eusartRxHead eusartRxHead `uc  1 s 1 eusartRxHead ]
+"67
+[v _eusartRxTail eusartRxTail `uc  1 s 1 eusartRxTail ]
+"68
+[v _eusartRxBuffer eusartRxBuffer `[64]uc  1 s 64 eusartRxBuffer ]
+"69
+[v _eusartRxCount eusartRxCount `VEuc  1 e 1 0 ]
+"57 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
+"58 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr3.c
+[v _timer3ReloadVal timer3ReloadVal `VEui  1 e 2 0 ]
+"111 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[v _USBDeviceState USBDeviceState `VEE6230  1 e 1 0 ]
+"112
+[v _USBActiveConfiguration USBActiveConfiguration `VEuc  1 e 1 0 ]
+"113
+[v _USBAlternateInterface USBAlternateInterface `VE[2]uc  1 e 2 0 ]
+[s S4033 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"114
+[s S4042 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S4049 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S4053 _BD_STAT 1 `uc 1 Val 1 0 `S4033 1 . 1 0 `S4042 1 . 1 0 `S4049 1 . 1 0 ]
+[s S4058 . 4 `S4053 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S4063 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S4067 __BDT 4 `S4058 1 . 4 0 `S4063 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.39VES4067  1 e 2 0 ]
+"115
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES4067  1 e 2 0 ]
+"116
+[v _pBDTEntryOut pBDTEntryOut `[3]*.39VES4067  1 e 6 0 ]
+"117
+[v _pBDTEntryIn pBDTEntryIn `[3]*.39VES4067  1 e 6 0 ]
+"118
+[v _shortPacketStatus shortPacketStatus `VEuc  1 e 1 0 ]
+"119
+[v _controlTransferState controlTransferState `VEuc  1 e 1 0 ]
+[u S4072 . 3 `*.2uc 1 bRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2ui 1 wRam 3 0 `*.2Cui 1 wRom 3 0 ]
+"120
+[s S4077 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S4082 . 1 `S4077 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S4085 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S4088 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S4085 1 byte 2 0 ]
+[s S4092 . 6 `S4072 1 pSrc 3 0 `S4082 1 info 1 3 `S4088 1 wCount 2 4 ]
+[v _inPipes inPipes `VE[1]S4092  1 e 6 0 ]
+[u S4096 . 3 `*.2uc 1 bRam 3 0 `*.2ui 1 wRam 3 0 ]
+"121
+[s S4099 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S4102 . 1 `S4099 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S4106 . 8 `S4096 1 pDst 3 0 `S4102 1 info 1 3 `S4088 1 wCount 2 4 `*.37(v 1 pFunc 2 6 ]
+[v _outPipes outPipes `VE[1]S4106  1 e 8 0 ]
+"122
+[v _pDst pDst `*.39VEuc  1 e 2 0 ]
+"123
+[v _RemoteWakeup RemoteWakeup `VEuc  1 e 1 0 ]
+"124
+[v _USBBusIsSuspended USBBusIsSuspended `VEuc  1 e 1 0 ]
+[s S4111 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"125
+[u S4116 __USTAT 1 `S4111 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `VES4116  1 e 1 0 ]
+"126
+[v _endpoint_number endpoint_number `VEuc  1 e 1 0 ]
+"127
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `VEuc  1 e 1 0 ]
+[s S4119 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"128
+[u S4122 . 1 `S4119 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `VE[3]S4122  1 e 3 0 ]
+"129
+[v _ep_data_out ep_data_out `VE[3]S4122  1 e 3 0 ]
+"130
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `VEuc  1 e 1 0 ]
+"131
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEuc  1 e 1 0 ]
+"132
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEuc  1 e 1 0 ]
+"133
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEuc  1 e 1 0 ]
+"134
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEuc  1 e 1 0 ]
+"135
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEuc  1 e 1 0 ]
+"138
+[v _BDT BDT `VE[12]S4067  1 e 48 @1024 ]
+[s S4125 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+"143
+[s S4152 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S4088 1 W_Value 2 2 `S4088 1 W_Index 2 4 `S4088 1 W_Length 2 6 ]
+[s S4158 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S4169 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S4173 . 1 `uc 1 bmRequestType 1 0 `S4169 1 . 1 0 ]
+[s S4176 . 1 `S4173 1 requestInfo 1 0 ]
+[s S4178 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S4186 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S4195 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S4204 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S4213 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S4222 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S4233 . 8 `S4125 1 . 8 0 `S4152 1 . 8 0 `S4158 1 . 8 0 `S4176 1 . 1 0 `S4178 1 . 8 0 `S4186 1 . 8 0 `S4195 1 . 8 0 `S4204 1 . 8 0 `S4213 1 . 8 0 `S4222 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES4233  1 e 8 @1072 ]
+"144
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @1080 ]
+"111 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device_cdc.c
+[v _cdc_data_tx cdc_data_tx `VE[64]uc  1 e 64 @1280 ]
+"112
+[v _cdc_data_rx cdc_data_rx `VE[64]uc  1 e 64 @1344 ]
+[s S1688 . 7 `[7]uc 1 _byte 7 0 ]
+"120
+[s S1690 . 7 `ul 1 dwDTERate 4 0 `uc 1 bCharFormat 1 4 `uc 1 bParityType 1 5 `uc 1 bDataBits 1 6 ]
+[u S1695 _LINE_CODING 7 `S1688 1 . 7 0 `S1690 1 . 7 0 ]
+[v _line_coding line_coding `S1695  1 e 7 0 ]
+"121
+[u S1824 _CDC_NOTICE 10 `S1695 1 GetLineCoding 7 0 `S1695 1 SetLineCoding 7 0 `[10]uc 1 packet 10 0 ]
+[v _cdc_notice cdc_notice `S1824  1 e 10 0 ]
+"124
+[v _cdc_rx_len cdc_rx_len `uc  1 e 1 0 ]
+"125
+[v _cdc_trf_state cdc_trf_state `uc  1 e 1 0 ]
+[s S5740 . 2 `uc 1 bLow 1 0 `uc 1 bHigh 1 1 ]
+"126
+[u S5743 _POINTER 3 `S5740 1 . 2 0 `ui 1 _word 2 0 `*.2uc 1 bRam 3 0 `*.2ui 1 wRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2Cui 1 wRom 3 0 ]
+[v _pCDCSrc pCDCSrc `S5743  1 e 3 0 ]
+"127
+[v _pCDCDst pCDCDst `S5743  1 e 3 0 ]
+"128
+[v _cdc_tx_len cdc_tx_len `uc  1 e 1 0 ]
+"129
+[v _cdc_mem_type cdc_mem_type `uc  1 e 1 0 ]
+"131
+[v _CDCDataOutHandle CDCDataOutHandle `*.39v  1 e 2 0 ]
+"132
+[v _CDCDataInHandle CDCDataInHandle `*.39v  1 e 2 0 ]
+[s S5750 . 1 `uc 1 DTE_PRESENT 1 0 :1:0 
+`uc 1 CARRIER_CONTROL 1 0 :1:1 
+]
+"135
+[u S5753 _CONTROL_SIGNAL_BITMAP 1 `uc 1 _byte 1 0 `S5750 1 . 1 0 ]
+[v _control_signal_bitmap control_signal_bitmap `S5753  1 e 1 0 ]
+"144
+[v _dummy_encapsulated_cmd_response dummy_encapsulated_cmd_response `[8]uc  1 e 8 0 ]
+[s S4559 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"162 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/usb_descriptors.c
+[v _device_dsc device_dsc `CS4559  1 e 18 0 ]
+"181
+[v _configDescriptor1 configDescriptor1 `C[67]uc  1 e 67 0 ]
+[s S6195 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+"266
+[v _sd000 sd000 `CS6195  1 e 4 0 ]
+[s S6199 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+"270
+[v _sd001 sd001 `CS6199  1 e 52 0 ]
+"277
+[v _sd002 sd002 `CS6199  1 e 52 0 ]
+"284
+[v _USB_CD_Ptr USB_CD_Ptr `C[1]*.25Cuc  1 e 2 0 ]
+"289
+[v _USB_SD_Ptr USB_SD_Ptr `C[3]*.25Cuc  1 e 6 0 ]
+[s S943 . 1 `uc 1 ANSA0 1 0 :1:0 
+`uc 1 ANSA1 1 0 :1:1 
+`uc 1 ANSA2 1 0 :1:2 
+`uc 1 ANSA3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 ANSA5 1 0 :1:5 
+]
+"225 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18lf45k50.h
+[u S950 . 1 `S943 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES950  1 e 1 @3931 ]
+[s S3396 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 ANSC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 ANSC6 1 0 :1:6 
+`uc 1 ANSC7 1 0 :1:7 
+]
+"319
+[u S3402 . 1 `S3396 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES3402  1 e 1 @3933 ]
+"433
+[v _UCON UCON `VEuc  1 e 1 @3936 ]
+[s S1710 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"449
+[u S1718 . 1 `S1710 1 . 1 0 ]
+[v _UCONbits UCONbits `VES1718  1 e 1 @3936 ]
+"484
+[v _USTAT USTAT `VEuc  1 e 1 @3937 ]
+"544
+[v _UCFG UCFG `VEuc  1 e 1 @3938 ]
+"623
+[v _UADDR UADDR `VEuc  1 e 1 @3939 ]
+"687
+[v _UIE UIE `VEuc  1 e 1 @3940 ]
+[s S4320 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"703
+[u S4328 . 1 `S4320 1 . 1 0 ]
+[v _UIEbits UIEbits `VES4328  1 e 1 @3940 ]
+"743
+[v _UIR UIR `VEuc  1 e 1 @3941 ]
+[s S4301 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"759
+[u S4309 . 1 `S4301 1 . 1 0 ]
+[v _UIRbits UIRbits `VES4309  1 e 1 @3941 ]
+"799
+[v _UEIE UEIE `VEuc  1 e 1 @3942 ]
+"850
+[v _UEIR UEIR `VEuc  1 e 1 @3943 ]
+"1026
+[v _UEP0 UEP0 `VEuc  1 e 1 @3946 ]
+[s S4593 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"1054
+[s S4599 . 1 `uc 1 EP0STALL 1 0 :1:0 
+`uc 1 EP0INEN 1 0 :1:1 
+`uc 1 EP0OUTEN 1 0 :1:2 
+`uc 1 EP0CONDIS 1 0 :1:3 
+`uc 1 EP0HSHK 1 0 :1:4 
+]
+[s S4605 . 1 `uc 1 EPSTALL0 1 0 :1:0 
+`uc 1 EPINEN0 1 0 :1:1 
+`uc 1 EPOUTEN0 1 0 :1:2 
+`uc 1 EPCONDIS0 1 0 :1:3 
+`uc 1 EPHSHK0 1 0 :1:4 
+]
+[u S4611 . 1 `S4593 1 . 1 0 `S4599 1 . 1 0 `S4605 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES4611  1 e 1 @3946 ]
+"1134
+[v _UEP1 UEP1 `VEuc  1 e 1 @3947 ]
+"2655
+[v _VREFCON0 VREFCON0 `VEuc  1 e 1 @3965 ]
+[s S3675 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TSRNG 1 0 :1:2 
+`uc 1 TSEN 1 0 :1:3 
+`uc 1 FVRS 1 0 :2:4 
+`uc 1 FVRST 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2675
+[s S3682 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 FVRS0 1 0 :1:4 
+`uc 1 FVRS1 1 0 :1:5 
+]
+[u S3686 . 1 `S3675 1 . 1 0 `S3682 1 . 1 0 ]
+[v _VREFCON0bits VREFCON0bits `VES3686  1 e 1 @3965 ]
+[s S447 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"2921
+[s S456 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S464 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S470 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S473 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S477 . 1 `S447 1 . 1 0 `S456 1 . 1 0 `S464 1 . 1 0 `S470 1 . 1 0 `S473 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES477  1 e 1 @3968 ]
+[s S609 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"3061
+[s S618 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S626 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S629 . 1 `S609 1 . 1 0 `S618 1 . 1 0 `S626 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES629  1 e 1 @3969 ]
+[s S1021 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"3183
+[s S1030 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S1037 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S1044 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S1048 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S1051 . 1 `S1021 1 . 1 0 `S1030 1 . 1 0 `S1037 1 . 1 0 `S1044 1 . 1 0 `S1048 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1051  1 e 1 @3970 ]
+[s S1000 . 1 `uc 1 IOCC0 1 0 :1:0 
+`uc 1 IOCC1 1 0 :1:1 
+`uc 1 IOCC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCC4 1 0 :1:4 
+`uc 1 IOCC5 1 0 :1:5 
+`uc 1 IOCC6 1 0 :1:6 
+`uc 1 IOCC7 1 0 :1:7 
+]
+"3641
+[u S1009 . 1 `S1000 1 . 1 0 ]
+[v _IOCCbits IOCCbits `VES1009  1 e 1 @3975 ]
+[s S700 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"3784
+[s S709 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S718 . 1 `S700 1 . 1 0 `S709 1 . 1 0 ]
+[v _LATAbits LATAbits `VES718  1 e 1 @3977 ]
+[s S65 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3896
+[s S74 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S83 . 1 `S65 1 . 1 0 `S74 1 . 1 0 ]
+[v _LATBbits LATBbits `VES83  1 e 1 @3978 ]
+[s S342 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"4008
+[s S351 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S360 . 1 `S342 1 . 1 0 `S351 1 . 1 0 ]
+[v _LATCbits LATCbits `VES360  1 e 1 @3979 ]
+"4083
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S880 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"4212
+[s S884 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S888 . 1 `S880 1 . 1 0 `S884 1 . 1 0 ]
+[v _LATEbits LATEbits `VES888  1 e 1 @3981 ]
+[s S3211 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"4636
+[u S3229 . 1 `S3211 1 . 1 0 `S447 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES3229  1 e 1 @3986 ]
+[s S2059 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4858
+[u S2077 . 1 `S2059 1 . 1 0 `S609 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES2077  1 e 1 @3987 ]
+[s S2099 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"5078
+[s S2108 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S2115 . 1 `S2099 1 . 1 0 `S2108 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES2115  1 e 1 @3988 ]
+"5226
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S2023 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 WPUE3 1 0 :1:7 
+]
+"5472
+[s S2029 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+[u S2033 . 1 `S2023 1 . 1 0 `S2029 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES2033  1 e 1 @3990 ]
+"5720
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @3992 ]
+[s S3604 . 1 `uc 1 C1CH 1 0 :2:0 
+`uc 1 C1R 1 0 :1:2 
+`uc 1 C1SP 1 0 :1:3 
+`uc 1 C1POL 1 0 :1:4 
+`uc 1 C1OE 1 0 :1:5 
+`uc 1 C1OUT 1 0 :1:6 
+`uc 1 C1ON 1 0 :1:7 
+]
+"5753
+[s S3612 . 1 `uc 1 C1CH0 1 0 :1:0 
+`uc 1 C1CH1 1 0 :1:1 
+`uc 1 CREF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CPOL 1 0 :1:4 
+`uc 1 COE 1 0 :1:5 
+`uc 1 COUT1 1 0 :1:6 
+`uc 1 CON 1 0 :1:7 
+]
+[s S3621 . 1 `uc 1 CCH 1 0 :2:0 
+]
+[s S3623 . 1 `uc 1 CCH0 1 0 :1:0 
+`uc 1 CCH1 1 0 :1:1 
+]
+[u S3626 . 1 `S3604 1 . 1 0 `S3612 1 . 1 0 `S3621 1 . 1 0 `S3623 1 . 1 0 ]
+[v _CM1CON0bits CM1CON0bits `VES3626  1 e 1 @3992 ]
+[s S3559 . 1 `uc 1 C2SYNC 1 0 :1:0 
+`uc 1 C1SYNC 1 0 :1:1 
+`uc 1 C2HYS 1 0 :1:2 
+`uc 1 C1HYS 1 0 :1:3 
+`uc 1 C2RSEL 1 0 :1:4 
+`uc 1 C1RSEL 1 0 :1:5 
+`uc 1 MC2OUT 1 0 :1:6 
+`uc 1 MC1OUT 1 0 :1:7 
+]
+"5983
+[u S3568 . 1 `S3559 1 . 1 0 ]
+[v _CM2CON1bits CM2CON1bits `VES3568  1 e 1 @3994 ]
+"6028
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S399 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 ACTIE 1 0 :1:7 
+]
+"6197
+[s S408 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 STIE 1 0 :1:7 
+]
+[s S415 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIE 1 0 :1:7 
+]
+[u S418 . 1 `S399 1 . 1 0 `S408 1 . 1 0 `S415 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES418  1 e 1 @3997 ]
+[s S2505 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 ACTIF 1 0 :1:7 
+]
+"6296
+[s S2514 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 STIF 1 0 :1:7 
+]
+[s S2521 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S2524 . 1 `S2505 1 . 1 0 `S2514 1 . 1 0 `S2521 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES2524  1 e 1 @3998 ]
+[s S900 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 HLVDIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 C2IE 1 0 :1:5 
+`uc 1 C1IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"6494
+[s S909 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CM2IE 1 0 :1:5 
+`uc 1 CM1IE 1 0 :1:6 
+]
+[s S916 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S919 . 1 `S900 1 . 1 0 `S909 1 . 1 0 `S916 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES919  1 e 1 @4000 ]
+[s S1100 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C2IF 1 0 :1:5 
+`uc 1 C1IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"6593
+[s S1109 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CM2IF 1 0 :1:5 
+`uc 1 CM1IF 1 0 :1:6 
+]
+[s S1116 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S1119 . 1 `S1100 1 . 1 0 `S1109 1 . 1 0 `S1116 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1119  1 e 1 @4001 ]
+[s S4244 . 1 `uc 1 TMR1GIE 1 0 :1:0 
+`uc 1 TMR3GIE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 CTMUIE 1 0 :1:3 
+]
+"6785
+[s S4249 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+]
+[s S4254 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+]
+[u S4257 . 1 `S4244 1 . 1 0 `S4249 1 . 1 0 `S4254 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES4257  1 e 1 @4003 ]
+[s S4343 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 USBIF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+]
+"6852
+[s S4348 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+]
+[u S4351 . 1 `S4343 1 . 1 0 `S4348 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES4351  1 e 1 @4004 ]
+[s S4502 . 1 `uc 1 TMR1GIP 1 0 :1:0 
+`uc 1 TMR3GIP 1 0 :1:1 
+`uc 1 USBIP 1 0 :1:2 
+`uc 1 CTMUIP 1 0 :1:3 
+]
+"6899
+[s S4507 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIP 1 0 :1:1 
+]
+[u S4510 . 1 `S4502 1 . 1 0 `S4507 1 . 1 0 ]
+[v _IPR3bits IPR3bits `VES4510  1 e 1 @4005 ]
+[s S3467 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"6950
+[s S3476 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S3479 . 1 `S3467 1 . 1 0 `S3476 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES3479  1 e 1 @4006 ]
+"6995
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"7015
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"7022
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"7034
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S2369 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"7165
+[s S2378 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S2381 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S2385 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S2388 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S2391 . 1 `S2369 1 . 1 0 `S2378 1 . 1 0 `S2381 1 . 1 0 `S2385 1 . 1 0 `S2388 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES2391  1 e 1 @4011 ]
+"7240
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S258 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"7434
+[s S267 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S271 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S274 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S277 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S280 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S283 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S286 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S289 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S291 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[u S294 . 1 `S258 1 . 1 0 `S267 1 . 1 0 `S271 1 . 1 0 `S274 1 . 1 0 `S277 1 . 1 0 `S280 1 . 1 0 `S283 1 . 1 0 `S286 1 . 1 0 `S289 1 . 1 0 `S291 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES294  1 e 1 @4012 ]
+"7534
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"7572
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"7610
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"7748
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"7881
+[v _T3CON T3CON `VEuc  1 e 1 @4017 ]
+[s S3841 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+]
+"7920
+[s S3844 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nT3SYNC 1 0 :1:2 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 T3CKPS 1 0 :2:4 
+`uc 1 TMR3CS 1 0 :2:6 
+]
+[s S3851 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 T3RD16 1 0 :1:1 
+`uc 1 T3SYNC 1 0 :1:2 
+`uc 1 T3SOSCEN 1 0 :1:3 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+`uc 1 TMR3CS0 1 0 :1:6 
+`uc 1 TMR3CS1 1 0 :1:7 
+]
+[s S3860 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T3OSCEN 1 0 :1:3 
+]
+[s S3863 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN3 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RD163 1 0 :1:7 
+]
+[u S3868 . 1 `S3841 1 . 1 0 `S3844 1 . 1 0 `S3851 1 . 1 0 `S3860 1 . 1 0 `S3863 1 . 1 0 ]
+[v _T3CONbits T3CONbits `VES3868  1 e 1 @4017 ]
+"8010
+[v _TMR3 TMR3 `VEus  1 e 2 @4018 ]
+"8017
+[v _TMR3L TMR3L `VEuc  1 e 1 @4018 ]
+"8037
+[v _TMR3H TMR3H `VEuc  1 e 1 @4019 ]
+"8057
+[v _T3GCON T3GCON `VEuc  1 e 1 @4020 ]
+[s S3902 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T3GGO_NOT_T3DONE 1 0 :1:3 
+]
+"8103
+[s S3905 . 1 `uc 1 T3GSS 1 0 :2:0 
+`uc 1 T3GVAL 1 0 :1:2 
+`uc 1 T3GGO_nT3DONE 1 0 :1:3 
+`uc 1 T3GSPM 1 0 :1:4 
+`uc 1 T3GTM 1 0 :1:5 
+`uc 1 T3GPOL 1 0 :1:6 
+`uc 1 TMR3GE 1 0 :1:7 
+]
+[s S3913 . 1 `uc 1 T3GSS0 1 0 :1:0 
+`uc 1 T3GSS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T3GGO 1 0 :1:3 
+]
+[s S3918 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_T3DONE 1 0 :1:3 
+]
+[s S3921 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 nT3DONE 1 0 :1:3 
+]
+[s S3924 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T3DONE 1 0 :1:3 
+]
+[s S3927 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T3GGO_NOT_DONE 1 0 :1:3 
+]
+[s S3930 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T3GGO_nDONE 1 0 :1:3 
+]
+[u S3933 . 1 `S3902 1 . 1 0 `S3905 1 . 1 0 `S3913 1 . 1 0 `S3918 1 . 1 0 `S3921 1 . 1 0 `S3924 1 . 1 0 `S3927 1 . 1 0 `S3930 1 . 1 0 ]
+[v _T3GCONbits T3GCONbits `VES3933  1 e 1 @4020 ]
+"8188
+[v _ACTCON ACTCON `VEuc  1 e 1 @4021 ]
+"8683
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"9264
+[v _T2CON T2CON `VEuc  1 e 1 @4026 ]
+[s S3742 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"9285
+[s S3746 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S3754 . 1 `S3742 1 . 1 0 `S3746 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES3754  1 e 1 @4026 ]
+"9335
+[v _PR2 PR2 `VEuc  1 e 1 @4027 ]
+"9355
+[v _TMR2 TMR2 `VEuc  1 e 1 @4028 ]
+"9614
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"9685
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"9753
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S769 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"9793
+[s S772 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S776 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S779 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S782 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S785 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S788 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[s S791 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S794 . 1 `S769 1 . 1 0 `S772 1 . 1 0 `S776 1 . 1 0 `S779 1 . 1 0 `S782 1 . 1 0 `S785 1 . 1 0 `S788 1 . 1 0 `S791 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES794  1 e 1 @4034 ]
+"9848
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"9855
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"10216
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @4038 ]
+[s S2760 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"10255
+[s S2766 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S2771 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S2780 . 1 `S2760 1 . 1 0 `S2766 1 . 1 0 `S2771 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES2780  1 e 1 @4038 ]
+"10570
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @4039 ]
+[s S2806 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"10670
+[s S2809 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S2812 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S2821 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S2830 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S2836 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S2842 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S2847 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S2852 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S2857 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S2862 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S2865 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S2868 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S2873 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S2876 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S2879 . 1 `S2806 1 . 1 0 `S2809 1 . 1 0 `S2812 1 . 1 0 `S2821 1 . 1 0 `S2830 1 . 1 0 `S2836 1 . 1 0 `S2842 1 . 1 0 `S2847 1 . 1 0 `S2852 1 . 1 0 `S2857 1 . 1 0 `S2862 1 . 1 0 `S2865 1 . 1 0 `S2868 1 . 1 0 `S2873 1 . 1 0 `S2876 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES2879  1 e 1 @4039 ]
+"11168
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @4040 ]
+"11511
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"11804
+[v _T1GCON T1GCON `VEuc  1 e 1 @4044 ]
+[s S3112 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO_NOT_T1DONE 1 0 :1:3 
+]
+"11850
+[s S3115 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nT1DONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+[s S3123 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[s S3128 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_T1DONE 1 0 :1:3 
+]
+[s S3131 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 nT1DONE 1 0 :1:3 
+]
+[s S3134 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1DONE 1 0 :1:3 
+]
+[s S3137 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO_NOT_DONE 1 0 :1:3 
+]
+[s S3140 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+]
+[u S3143 . 1 `S3112 1 . 1 0 `S3115 1 . 1 0 `S3123 1 . 1 0 `S3128 1 . 1 0 `S3131 1 . 1 0 `S3134 1 . 1 0 `S3137 1 . 1 0 `S3140 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES3143  1 e 1 @4044 ]
+"11935
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S3051 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"11974
+[s S3054 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+[s S3061 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 T1SOSCEN 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[s S3070 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1OSCEN 1 0 :1:3 
+]
+[s S3073 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN1 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RD161 1 0 :1:7 
+]
+[u S3078 . 1 `S3051 1 . 1 0 `S3054 1 . 1 0 `S3061 1 . 1 0 `S3070 1 . 1 0 `S3073 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES3078  1 e 1 @4045 ]
+"12071
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"12091
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S4435 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"12154
+[s S4437 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S4440 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S4443 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S4446 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S4449 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S4458 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S4464 . 1 `S4435 1 . 1 0 `S4437 1 . 1 0 `S4440 1 . 1 0 `S4443 1 . 1 0 `S4446 1 . 1 0 `S4449 1 . 1 0 `S4458 1 . 1 0 ]
+[v _RCONbits RCONbits `VES4464  1 e 1 @4048 ]
+[s S1088 . 1 `uc 1 SWDTEN 1 0 :1:0 
+]
+"12257
+[s S1090 . 1 `uc 1 SWDTE 1 0 :1:0 
+]
+[u S1092 . 1 `S1088 1 . 1 0 `S1090 1 . 1 0 ]
+[v _WDTCONbits WDTCONbits `VES1092  1 e 1 @4049 ]
+"12272
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+[s S2664 . 1 `uc 1 LFIOFS 1 0 :1:0 
+`uc 1 HFIOFR 1 0 :1:1 
+`uc 1 PRISD 1 0 :1:2 
+`uc 1 SOSCGO 1 0 :1:3 
+`uc 1 PLLEN 1 0 :1:4 
+`uc 1 INTSRC 1 0 :1:5 
+`uc 1 SOSCRUN 1 0 :1:6 
+`uc 1 PLLRDY 1 0 :1:7 
+]
+"12289
+[u S2673 . 1 `S2664 1 . 1 0 ]
+[v _OSCCON2bits OSCCON2bits `VES2673  1 e 1 @4050 ]
+"12334
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S960 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"13061
+[s S969 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S978 . 1 `S960 1 . 1 0 `S969 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES978  1 e 1 @4080 ]
+[s S829 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"13235
+[s S838 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S847 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S851 . 1 `S829 1 . 1 0 `S838 1 . 1 0 `S847 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES851  1 e 1 @4082 ]
+"13367
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"13396
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"13416
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"13436
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"14007
+[v _CKE CKE `VEb  1 e 0 @32318 ]
+"14011
+[v _CKP CKP `VEb  1 e 0 @32308 ]
+"14463
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"14899
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"53 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware\PICoRa_Mote.X\main.c
+[v _operationType operationType `E6899  1 e 1 0 ]
+"63
+[v _powerOnStatus powerOnStatus `uc  1 s 1 powerOnStatus ]
+"70
+[v _main main `(v  1 e 1 0 ]
+{
+"135
+} 0
+"188 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moteHandler moteHandler `(E6833  1 e 1 0 ]
+{
+"193
+[v moteHandler@readMessage readMessage `uc  1 a 1 91 ]
+"194
+[v moteHandler@buttonPress buttonPress `E5836  1 a 1 90 ]
+"192
+[v moteHandler@s2Button s2Button `uc  1 a 1 89 ]
+"191
+[v moteHandler@gotoNextState gotoNextState `uc  1 a 1 88 ]
+"190
+[v moteHandler@gotoSleep gotoSleep `uc  1 a 1 87 ]
+"292
+} 0
+"491
+[v _moteRunningProcess moteRunningProcess `(E6082  1 s 1 moteRunningProcess ]
+{
+[v moteRunningProcess@changeStates changeStates `uc  1 a 1 wreg ]
+"668
+[v moteRunningProcess@counter counter `uc  1 a 1 83 ]
+"653
+[v moteRunningProcess@bufferReadPos bufferReadPos `uc  1 a 1 84 ]
+"606
+[v moteRunningProcess@sizeOfUpdate_1339 sizeOfUpdate `uc  1 a 1 82 ]
+"508
+[v moteRunningProcess@sizeOfUpdate sizeOfUpdate `uc  1 a 1 81 ]
+"493
+[v moteRunningProcess@readByte readByte `uc  1 a 1 80 ]
+"491
+[v moteRunningProcess@changeStates changeStates `uc  1 a 1 wreg ]
+[v moteRunningProcess@selectButton selectButton `uc  1 p 1 76 ]
+[v moteRunningProcess@messageReady messageReady `uc  1 p 1 77 ]
+[v moteRunningProcess@sleepEvent sleepEvent `uc  1 p 1 78 ]
+"493
+[v moteRunningProcess@changeStates changeStates `uc  1 a 1 85 ]
+"981
+} 0
+"1127
+[v _sendDataCommand sendDataCommand `(v  1 s 1 sendDataCommand ]
+{
+"1142
+[v sendDataCommand@byteCount_1477 byteCount `uc  1 a 1 8 ]
+"1135
+[v sendDataCommand@byteCount byteCount `uc  1 a 1 7 ]
+"1127
+[v sendDataCommand@string string `*.25Cuc  1 p 2 1 ]
+[v sendDataCommand@appData appData `*.39uc  1 p 2 3 ]
+[v sendDataCommand@dataLength dataLength `uc  1 p 1 5 ]
+"1148
+} 0
+"1159
+[v _hexToStr hexToStr `(uc  1 s 1 hexToStr ]
+{
+[v hexToStr@character character `uc  1 a 1 wreg ]
+[v hexToStr@character character `uc  1 a 1 wreg ]
+"1162
+[v hexToStr@character character `uc  1 a 1 0 ]
+"1176
+} 0
+"264 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/SSD1306oLED.c
+[v _oled_putUint8 oled_putUint8 `(v  1 e 1 0 ]
+{
+[v oled_putUint8@number number `uc  1 a 1 wreg ]
+[s S2002 . 6 `uc 1 d0 1 0 `uc 1 d1 1 1 `uc 1 d2 1 2 `uc 1 d3 1 3 `uc 1 d4 1 4 `uc 1 d5 1 5 ]
+"266
+[u S2009 . 6 `S2002 1 . 6 0 `[6]uc 1 b 6 0 ]
+[v oled_putUint8@numData numData `S2009  1 a 6 26 ]
+"264
+[v oled_putUint8@number number `uc  1 a 1 wreg ]
+[v oled_putUint8@station_dot station_dot `uc  1 p 1 23 ]
+[v oled_putUint8@start_page start_page `uc  1 p 1 24 ]
+"267
+[v oled_putUint8@number number `uc  1 a 1 25 ]
+"276
+} 0
+"1455 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moteApp_lightStringSize moteApp_lightStringSize `(uc  1 e 1 0 ]
+{
+"1458
+} 0
+"1459
+[v _moteApp_getLightString moteApp_getLightString `(*.39uc  1 e 2 0 ]
+{
+"1462
+} 0
+"1290
+[v _moteApp_clearBuffers moteApp_clearBuffers `(v  1 s 1 moteApp_clearBuffers ]
+{
+"1304
+[v moteApp_clearBuffers@counter_1566 counter `uc  1 a 1 3 ]
+"1300
+[v moteApp_clearBuffers@counter_1565 counter `uc  1 a 1 2 ]
+"1296
+[v moteApp_clearBuffers@counter_1564 counter `uc  1 a 1 1 ]
+"1292
+[v moteApp_clearBuffers@counter counter `uc  1 a 1 0 ]
+"1308
+} 0
+"1332
+[v _moteApp_addToDataBuffer moteApp_addToDataBuffer `(uc  1 e 1 0 ]
+{
+"1334
+[v moteApp_addToDataBuffer@index index `uc  1 a 1 21 ]
+"1332
+[v moteApp_addToDataBuffer@string string `*.39Cuc  1 p 2 18 ]
+[v moteApp_addToDataBuffer@bufferLocation bufferLocation `uc  1 p 1 20 ]
+"1348
+} 0
+"1310
+[v _moteApp_add8bToDataBuffer moteApp_add8bToDataBuffer `(v  1 e 1 0 ]
+{
+[v moteApp_add8bToDataBuffer@number number `uc  1 a 1 wreg ]
+[v moteApp_add8bToDataBuffer@number number `uc  1 a 1 wreg ]
+[v moteApp_add8bToDataBuffer@bufferLocation bufferLocation `uc  1 p 1 6 ]
+"1312
+[v moteApp_add8bToDataBuffer@number number `uc  1 a 1 9 ]
+"1317
+} 0
+"1178
+[v _moteApp_GoToSleep moteApp_GoToSleep `(uc  1 s 1 moteApp_GoToSleep ]
+{
+"1180
+[v moteApp_GoToSleep@status status `uc  1 a 1 14 ]
+"1260
+} 0
+"366 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/SSD1306oLED.c
+[v _oled_init oled_init `(v  1 e 1 0 ]
+{
+"386
+} 0
+"256
+[v _oled_setFont oled_setFont `(v  1 e 1 0 ]
+{
+[v oled_setFont@font font `*.25Cuc  1 p 2 0 ]
+"262
+} 0
+"411
+[v _oled_setDisplay oled_setDisplay `(v  1 e 1 0 ]
+{
+[v oled_setDisplay@displayType displayType `E5868  1 a 1 wreg ]
+[v oled_setDisplay@displayType displayType `E5868  1 a 1 wreg ]
+"413
+[v oled_setDisplay@displayType displayType `E5868  1 a 1 1 ]
+"423
+} 0
+"388
+[v _oled_devInit oled_devInit `(v  1 e 1 0 ]
+{
+"408
+} 0
+"454
+[v _oled_setContrastControlRegister oled_setContrastControlRegister `(v  1 e 1 0 ]
+{
+[v oled_setContrastControlRegister@mod mod `uc  1 a 1 wreg ]
+[v oled_setContrastControlRegister@mod mod `uc  1 a 1 wreg ]
+"456
+[v oled_setContrastControlRegister@mod mod `uc  1 a 1 1 ]
+"459
+} 0
+"482
+[v _oled_regulorResistorSelect oled_regulorResistorSelect `(v  1 e 1 0 ]
+{
+[v oled_regulorResistorSelect@r r `uc  1 a 1 wreg ]
+[v oled_regulorResistorSelect@r r `uc  1 a 1 wreg ]
+"484
+[v oled_regulorResistorSelect@r r `uc  1 a 1 1 ]
+"486
+} 0
+"469
+[v _oled_powerControl oled_powerControl `(v  1 e 1 0 ]
+{
+[v oled_powerControl@vol vol `uc  1 a 1 wreg ]
+[v oled_powerControl@vol vol `uc  1 a 1 wreg ]
+"471
+[v oled_powerControl@vol vol `uc  1 a 1 1 ]
+"473
+} 0
+"462
+[v _oled_initialDispayLine oled_initialDispayLine `(v  1 e 1 0 ]
+{
+[v oled_initialDispayLine@line line `uc  1 a 1 wreg ]
+[v oled_initialDispayLine@line line `uc  1 a 1 wreg ]
+"464
+[v oled_initialDispayLine@line line `uc  1 a 1 1 ]
+"467
+} 0
+"425
+[v _oled_displayOff oled_displayOff `(v  1 e 1 0 ]
+{
+"428
+} 0
+"175 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moduleSleep moduleSleep `(v  1 e 1 0 ]
+{
+"181
+} 0
+"134
+[v _moduleResync moduleResync `(v  1 e 1 0 ]
+{
+"137
+[v moduleResync@escapeCounter escapeCounter `ui  1 a 2 5 ]
+"136
+[v moduleResync@escapeEvent escapeEvent `uc  1 a 1 7 ]
+"165
+} 0
+"87 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr2.c
+[v _TMR2_ReadTimer TMR2_ReadTimer `(uc  1 e 1 0 ]
+{
+"88
+[v TMR2_ReadTimer@readVal readVal `uc  1 a 1 0 ]
+"93
+} 0
+"983 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _MOTEapp_SetDataRateSetting MOTEapp_SetDataRateSetting `(v  1 e 1 0 ]
+{
+[v MOTEapp_SetDataRateSetting@dr dr `uc  1 a 1 wreg ]
+[v MOTEapp_SetDataRateSetting@dr dr `uc  1 a 1 wreg ]
+"985
+[v MOTEapp_SetDataRateSetting@dr dr `uc  1 a 1 4 ]
+"1027
+} 0
+"294
+[v _moteJoiningProcess moteJoiningProcess `(E6062  1 s 1 moteJoiningProcess ]
+{
+[v moteJoiningProcess@messageReady messageReady `uc  1 a 1 wreg ]
+"459
+[v moteJoiningProcess@readDataRate readDataRate `uc  1 a 1 26 ]
+"296
+[v moteJoiningProcess@joiningComplete joiningComplete `uc  1 a 1 27 ]
+"294
+[v moteJoiningProcess@messageReady messageReady `uc  1 a 1 wreg ]
+[v moteJoiningProcess@changeStates changeStates `uc  1 p 1 23 ]
+[v moteJoiningProcess@selectButton selectButton `uc  1 p 1 24 ]
+"296
+[v moteJoiningProcess@messageReady messageReady `uc  1 a 1 28 ]
+"484
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+[v strncmp@s1 s1 `*.39Cuc  1 p 2 0 ]
+[v strncmp@s2 s2 `*.25Cuc  1 p 2 2 ]
+[v strncmp@len len `ui  1 p 2 4 ]
+"14
+} 0
+"33 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+"35
+[v strcmp@r r `c  1 a 1 5 ]
+"33
+[v strcmp@s1 s1 `*.39Cuc  1 p 2 0 ]
+[v strcmp@s2 s2 `*.25Cuc  1 p 2 2 ]
+"42
+} 0
+"166 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 wreg ]
+"168
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 2 ]
+"166
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 wreg ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 0 ]
+"168
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 1 ]
+"186
+} 0
+"139 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _USBapp_exitCDCState USBapp_exitCDCState `(v  1 e 1 0 ]
+{
+"140
+[v USBapp_exitCDCState@usbState usbState `E5838  1 a 1 wreg ]
+[v USBapp_exitCDCState@usbState usbState `E5838  1 a 1 wreg ]
+[v USBapp_exitCDCState@usbState usbState `E5838  1 a 1 0 ]
+"142
+} 0
+"134
+[v _USBapp_exitCDC USBapp_exitCDC `(E5902  1 e 1 0 ]
+{
+"137
+} 0
+"57 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/TMRapp.c
+[v _TMRapp_Handler TMRapp_Handler `(v  1 e 1 0 ]
+{
+"94
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+{
+"11
+[v ___almod@sign sign `uc  1 a 1 9 ]
+[v ___almod@counter counter `uc  1 a 1 8 ]
+"8
+[v ___almod@dividend dividend `l  1 p 4 0 ]
+[v ___almod@divisor divisor `l  1 p 4 4 ]
+"35
+} 0
+"51 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/TMRapp.c
+[v _TMRapp_ClearBitFlags TMRapp_ClearBitFlags `(v  1 e 1 0 ]
+{
+"55
+} 0
+"1029 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _MOTEapp_TimerBasedTask MOTEapp_TimerBasedTask `(v  1 e 1 0 ]
+{
+[s S21 . 1 `uc 1 mSecTick 1 0 :1:0 
+`uc 1 mSecTenTick 1 0 :1:1 
+`uc 1 mSecHundredTick 1 0 :1:2 
+`uc 1 SecTick 1 0 :1:3 
+`uc 1 MinTick 1 0 :1:4 
+`uc 1 HourTick 1 0 :1:5 
+`uc 1 HalfDayTick 1 0 :1:6 
+`uc 1 DayTick 1 0 :1:7 
+]
+[u S30 . 1 `uc 1 TicksBitMap 1 0 `S21 1 . 1 0 ]
+[v MOTEapp_TimerBasedTask@timerTask timerTask `S30  1 a 1 wreg ]
+[v MOTEapp_TimerBasedTask@timerTask timerTask `S30  1 a 1 wreg ]
+"1034
+"1029
+[v MOTEapp_TimerBasedTask@timerTask timerTask `S30  1 a 1 0 ]
+"1066
+} 0
+"1262
+[v _moteApp_clearCommand moteApp_clearCommand `(v  1 e 1 0 ]
+{
+"1265
+} 0
+"78 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _USBapp_handlerState USBapp_handlerState `(v  1 e 1 0 ]
+{
+[v USBapp_handlerState@state state `E5833  1 a 1 wreg ]
+[v USBapp_handlerState@state state `E5833  1 a 1 wreg ]
+"80
+[v USBapp_handlerState@state state `E5833  1 a 1 0 ]
+"81
+} 0
+"86
+[v _USBapp_Handler USBapp_Handler `(v  1 e 1 0 ]
+{
+"120
+[v USBapp_Handler@buttonPress buttonPress `E5867  1 a 1 23 ]
+"132
+} 0
+"49 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/buttons.c
+[v _service_pushbutton service_pushbutton `(E5836  1 e 1 0 ]
+{
+"53
+[v service_pushbutton@bs bs `E5748  1 a 1 0 ]
+"51
+[v service_pushbutton@PB_Timer PB_Timer `ul  1 s 4 PB_Timer ]
+"52
+[v service_pushbutton@Release_Timer Release_Timer `uc  1 s 1 Release_Timer ]
+"94
+} 0
+"162 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _USBapp_DeviceCdcEmulatorHandler USBapp_DeviceCdcEmulatorHandler `(v  1 e 1 0 ]
+{
+"211
+} 0
+"503 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device_cdc.c
+[v _putUSBUSART putUSBUSART `(v  1 e 1 0 ]
+{
+[v putUSBUSART@data data `*.39uc  1 p 2 0 ]
+[v putUSBUSART@length length `uc  1 p 1 2 ]
+"534
+} 0
+"432
+[v _getsUSBUSART getsUSBUSART `(uc  1 e 1 0 ]
+{
+[v getsUSBUSART@buffer buffer `*.39uc  1 p 2 7 ]
+[v getsUSBUSART@len len `uc  1 p 1 9 ]
+"461
+} 0
+"268 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _USBapp_getrxByteFlag USBapp_getrxByteFlag `(uc  1 e 1 0 ]
+{
+"271
+} 0
+"1106 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _MOTEapp_setResponseReady MOTEapp_setResponseReady `(v  1 e 1 0 ]
+{
+"1109
+} 0
+"783 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device_cdc.c
+[v _CDCTxService CDCTxService `(v  1 e 1 0 ]
+{
+"785
+[v CDCTxService@byte_to_send byte_to_send `uc  1 a 1 11 ]
+"786
+[v CDCTxService@i i `uc  1 a 1 10 ]
+"879
+} 0
+"757 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S4033 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"759
+[s S4042 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S4049 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S4053 _BD_STAT 1 `uc 1 Val 1 0 `S4033 1 . 1 0 `S4042 1 . 1 0 `S4049 1 . 1 0 ]
+[s S4058 . 4 `S4053 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S4063 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S4067 __BDT 4 `S4058 1 . 4 0 `S4063 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES4067  1 a 2 5 ]
+"757
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"762
+[v USBTransferOnePacket@ep ep `uc  1 a 1 4 ]
+"798
+} 0
+"237
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"239
+[v USBDeviceInit@i i `uc  1 a 1 8 ]
+"324
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 6 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"1046 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 1 0 ]
+{
+"1072
+} 0
+"62 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/PICoRatestAll.c
+[v _PICoRa_test_powerup PICoRa_test_powerup `(v  1 e 1 0 ]
+{
+"84
+} 0
+"99
+[v _test_switch test_switch `(v  1 e 1 0 ]
+{
+"101
+[v test_switch@timeout timeout `ui  1 a 2 24 ]
+"102
+[v test_switch@buttonCheck buttonCheck `uc  1 a 1 26 ]
+"132
+} 0
+"86
+[v _test_oled test_oled `(v  1 e 1 0 ]
+{
+"97
+} 0
+"147
+[v _test_leds test_leds `(v  1 e 1 0 ]
+{
+"163
+} 0
+"134
+[v _test_comms test_comms `(v  1 e 1 0 ]
+{
+"145
+} 0
+"1267 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moteApp_toggleLeds moteApp_toggleLeds `(v  1 e 1 0 ]
+{
+[v moteApp_toggleLeds@state state `uc  1 a 1 wreg ]
+[v moteApp_toggleLeds@state state `uc  1 a 1 wreg ]
+"1269
+[v moteApp_toggleLeds@state state `uc  1 a 1 4 ]
+"1288
+} 0
+"54 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/PICoRatestAll.c
+[v _delayms delayms `(v  1 e 1 0 ]
+{
+"56
+[v delayms@i i `ui  1 a 2 3 ]
+"54
+[v delayms@t t `ui  1 p 2 0 ]
+"61
+} 0
+"1371 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moteApp_testSensors moteApp_testSensors `(v  1 e 1 0 ]
+{
+"1388
+} 0
+"278 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/SSD1306oLED.c
+[v _oled_putint8 oled_putint8 `(v  1 e 1 0 ]
+{
+[v oled_putint8@number number `uc  1 a 1 wreg ]
+[s S2002 . 6 `uc 1 d0 1 0 `uc 1 d1 1 1 `uc 1 d2 1 2 `uc 1 d3 1 3 `uc 1 d4 1 4 `uc 1 d5 1 5 ]
+"280
+[u S2009 . 6 `S2002 1 . 6 0 `[6]uc 1 b 6 0 ]
+[v oled_putint8@numData numData `S2009  1 a 6 26 ]
+"281
+[v oled_putint8@negative negative `uc  1 a 1 25 ]
+"278
+[v oled_putint8@number number `uc  1 a 1 wreg ]
+[v oled_putint8@station_dot station_dot `uc  1 p 1 23 ]
+[v oled_putint8@start_page start_page `uc  1 p 1 24 ]
+"281
+[v oled_putint8@number number `uc  1 a 1 32 ]
+"298
+} 0
+"331
+[v _oled_putString oled_putString `(v  1 e 1 0 ]
+{
+"333
+[v oled_putString@index index `uc  1 a 1 22 ]
+"331
+[v oled_putString@string string `*.35Cuc  1 p 2 18 ]
+[v oled_putString@station_dot station_dot `uc  1 p 1 20 ]
+[v oled_putString@start_page start_page `uc  1 p 1 21 ]
+"346
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 3 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 2 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 1 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"35
+} 0
+"348 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/SSD1306oLED.c
+[v _oled_clear oled_clear `(v  1 e 1 0 ]
+{
+"354
+} 0
+"356
+[v _oled_clearRow oled_clearRow `(v  1 e 1 0 ]
+{
+[v oled_clearRow@page page `uc  1 a 1 wreg ]
+"358
+[v oled_clearRow@index index `uc  1 a 1 13 ]
+"356
+[v oled_clearRow@page page `uc  1 a 1 wreg ]
+"360
+[v oled_clearRow@page page `uc  1 a 1 12 ]
+"364
+} 0
+"318
+[v _oled_putChar oled_putChar `(v  1 e 1 0 ]
+{
+[v oled_putChar@k k `uc  1 a 1 wreg ]
+"320
+[v oled_putChar@index index `uc  1 a 1 11 ]
+"318
+[v oled_putChar@k k `uc  1 a 1 wreg ]
+[v oled_putChar@station_dot station_dot `uc  1 p 1 2 ]
+[v oled_putChar@start_page start_page `uc  1 p 1 3 ]
+"322
+[v oled_putChar@k k `uc  1 a 1 10 ]
+"329
+} 0
+"442
+[v _oled_writeData oled_writeData `(v  1 e 1 0 ]
+{
+[v oled_writeData@data data `uc  1 a 1 wreg ]
+[v oled_writeData@data data `uc  1 a 1 wreg ]
+"444
+[v oled_writeData@data data `uc  1 a 1 0 ]
+"452
+} 0
+"241
+[v _Set_Page_Address Set_Page_Address `(v  1 e 1 0 ]
+{
+[v Set_Page_Address@address address `uc  1 a 1 wreg ]
+[v Set_Page_Address@address address `uc  1 a 1 wreg ]
+"243
+[v Set_Page_Address@address address `uc  1 a 1 1 ]
+"246
+} 0
+"249
+[v _Set_Column_Address Set_Column_Address `(v  1 e 1 0 ]
+{
+[v Set_Column_Address@address address `uc  1 a 1 wreg ]
+[v Set_Column_Address@address address `uc  1 a 1 wreg ]
+"251
+[v Set_Column_Address@address address `uc  1 a 1 1 ]
+"254
+} 0
+"430
+[v _oled_writeCommand oled_writeCommand `(v  1 e 1 0 ]
+{
+[v oled_writeCommand@command command `uc  1 a 1 wreg ]
+[v oled_writeCommand@command command `uc  1 a 1 wreg ]
+"432
+[v oled_writeCommand@command command `uc  1 a 1 0 ]
+"440
+} 0
+"1390 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moteApp_setSensorsInput moteApp_setSensorsInput `(v  1 e 1 0 ]
+{
+"1392
+[v moteApp_setSensorsInput@escapeCounter escapeCounter `ui  1 a 2 5 ]
+"1407
+} 0
+"167
+[v _moteApp_delayms moteApp_delayms `(v  1 e 1 0 ]
+{
+"169
+[v moteApp_delayms@counter counter `ui  1 a 2 3 ]
+"167
+[v moteApp_delayms@length length `ui  1 p 2 0 ]
+"174
+} 0
+"1408
+[v _moteApp_getTempValue moteApp_getTempValue `(*.39uc  1 e 2 0 ]
+{
+"1410
+[v moteApp_getTempValue@escapeCounter escapeCounter `ui  1 a 2 5 ]
+"1420
+} 0
+"1422
+[v _moteApp_getLightValue moteApp_getLightValue `(*.39uc  1 e 2 0 ]
+{
+"1424
+[v moteApp_getLightValue@escapeCounter escapeCounter `ui  1 a 2 16 ]
+"1434
+} 0
+"1117
+[v _sendCommand sendCommand `(v  1 s 1 sendCommand ]
+{
+[v sendCommand@string string `*.25Cuc  1 p 2 1 ]
+"1125
+} 0
+"1111
+[v _EndLine EndLine `(v  1 s 1 EndLine ]
+{
+"1115
+} 0
+"139 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/eusart.c
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 0 ]
+"160
+} 0
+"1440 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moteApp_setLightString moteApp_setLightString `(v  1 e 1 0 ]
+{
+"1445
+[v moteApp_setLightString@stingPos stingPos `uc  1 a 1 13 ]
+"1440
+[v moteApp_setLightString@lightString lightString `*.39uc  1 p 2 11 ]
+"1453
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"31
+[v memcpy@s s `*.39Cuc  1 a 2 8 ]
+"30
+[v memcpy@d d `*.39uc  1 a 2 6 ]
+"32
+[v memcpy@tmp tmp `uc  1 a 1 10 ]
+"27
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"41
+} 0
+"1076 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _MOTEapp_getModuleResponse MOTEapp_getModuleResponse `(uc  1 e 1 0 ]
+{
+"1082
+[v MOTEapp_getModuleResponse@bufferByte bufferByte `uc  1 a 1 2 ]
+"1078
+[v MOTEapp_getModuleResponse@terminatorReceived terminatorReceived `uc  1 a 1 1 ]
+"1104
+} 0
+"117 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/eusart.c
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+{
+"119
+[v EUSART_Read@readValue readValue `uc  1 a 1 0 ]
+"137
+} 0
+"1350 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _moteApp_convertSensorValue moteApp_convertSensorValue `(ui  1 e 2 0 ]
+{
+"1353
+[v moteApp_convertSensorValue@convertedValue convertedValue `ui  1 a 2 23 ]
+"1352
+[v moteApp_convertSensorValue@index index `uc  1 a 1 25 ]
+"1350
+[v moteApp_convertSensorValue@string string `*.39Cuc  1 p 2 18 ]
+"1369
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"136 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/adc.c
+[v _ADC_TempConversion ADC_TempConversion `(uc  1 e 1 0 ]
+{
+[v ADC_TempConversion@tempRaw tempRaw `E5749  1 a 1 wreg ]
+"140
+[v ADC_TempConversion@val val `d  1 a 4 72 ]
+"138
+[v ADC_TempConversion@temp temp `uc  1 a 1 71 ]
+"136
+[v ADC_TempConversion@tempRaw tempRaw `E5749  1 a 1 wreg ]
+"140
+[v ADC_TempConversion@tempRaw tempRaw `E5749  1 a 1 70 ]
+"145
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S6635 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S6640 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S6643 . 4 `l 1 i 4 0 `d 1 f 4 0 `S6635 1 fAsBytes 4 0 `S6640 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S6643  1 a 4 39 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 33 ]
+[s S6711 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S6714 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S6711 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S6714  1 a 2 43 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 38 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 37 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 32 ]
+"8
+[v ___flmul@b b `d  1 p 4 20 ]
+[v ___flmul@a a `d  1 p 4 24 ]
+"205
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 64 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 58 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 62 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 69 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 68 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 57 ]
+"11
+[v ___fldiv@b b `d  1 p 4 45 ]
+[v ___fldiv@a a `d  1 p 4 49 ]
+"184
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 19 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 18 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 17 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 16 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"202 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/eusart.c
+[v _EUSART_FlushBuffer EUSART_FlushBuffer `(v  1 e 1 0 ]
+{
+"204
+[v EUSART_FlushBuffer@index index `uc  1 a 1 0 ]
+"217
+} 0
+"93 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/mcc.c
+[v _PICoRa_Initialize PICoRa_Initialize `(v  1 e 1 0 ]
+{
+"104
+} 0
+"67 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr3.c
+[v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"96
+[v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
+{
+"100
+} 0
+"58 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"77
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+{
+"80
+} 0
+"63 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"92
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"96
+} 0
+"51 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"101
+} 0
+"106 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"77 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"58 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"65 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"183 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/MOTEapp.c
+[v _MOTEapp_handlerState MOTEapp_handlerState `(v  1 e 1 0 ]
+{
+[v MOTEapp_handlerState@state state `E5864  1 a 1 wreg ]
+[v MOTEapp_handlerState@state state `E5864  1 a 1 wreg ]
+"185
+[v MOTEapp_handlerState@state state `E5864  1 a 1 0 ]
+"186
+} 0
+"188 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/memory.c
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 wreg ]
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 wreg ]
+"190
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 0 ]
+"198
+} 0
+"55 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"86
+} 0
+"263 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _USBapp_setrxByteFlag USBapp_setrxByteFlag `(v  1 e 1 0 ]
+{
+"266
+} 0
+"428 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+{
+"430
+[v USBDeviceTasks@i i `uc  1 a 1 30 ]
+"594
+} 0
+"237
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+[v i2USBDeviceInit@i USBDeviceInit `uc  1 a 1 8 ]
+"324
+} 0
+"1944
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+{
+"1981
+} 0
+"1889
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+{
+"1927
+} 0
+"1846
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+{
+"1871
+} 0
+"2004
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+{
+"2026
+[v USBCtrlEPService@setup_cnt setup_cnt `uc  1 a 1 29 ]
+"2055
+} 0
+"2097
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+{
+"2146
+} 0
+"1282
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+{
+"1414
+} 0
+"1173
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+{
+"1203
+} 0
+"2317
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+{
+"2364
+} 0
+"1629
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+{
+"1631
+[v USBStdSetCfgHandler@i i `uc  1 a 1 21 ]
+"1685
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\memset.c
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+{
+[v i2memset@p memset `*.39uc  1 a 2 6 ]
+[v i2memset@p1 p1 `*.39v  1 p 2 0 ]
+[v i2memset@c c `i  1 p 2 2 ]
+[v i2memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"1773 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+{
+[s S4033 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1805
+[s S4042 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S4049 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S4053 _BD_STAT 1 `uc 1 Val 1 0 `S4033 1 . 1 0 `S4042 1 . 1 0 `S4049 1 . 1 0 ]
+[s S4058 . 4 `S4053 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S4063 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S4067 __BDT 4 `S4058 1 . 4 0 `S4063 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S4067  1 a 2 1 ]
+"1828
+} 0
+"1704
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+{
+"1756
+} 0
+"2385
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+{
+[s S4033 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2387
+[s S4042 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S4049 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S4053 _BD_STAT 1 `uc 1 Val 1 0 `S4033 1 . 1 0 `S4042 1 . 1 0 `S4049 1 . 1 0 ]
+[s S4058 . 4 `S4053 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S4063 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S4067 __BDT 4 `S4058 1 . 4 0 `S4063 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S4067  1 a 2 25 ]
+"2390
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 22 ]
+[s S4119 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2388
+[u S4122 . 1 `S4119 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S4122  1 a 1 24 ]
+"2525
+} 0
+"308 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E5981  1 p 2 13 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 15 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 17 ]
+"356
+} 0
+"144
+[v _USBapp_CdcEmulatorInitialize USBapp_CdcEmulatorInitialize `(v  1 e 1 0 ]
+{
+"154
+[v USBapp_CdcEmulatorInitialize@i i `uc  1 a 1 12 ]
+"160
+} 0
+"296 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device_cdc.c
+[v _CDCInitEP CDCInitEP `(v  1 e 1 0 ]
+{
+"327
+} 0
+"757 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S4033 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+[s S4042 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S4049 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S4053 _BD_STAT 1 `uc 1 Val 1 0 `S4033 1 . 1 0 `S4042 1 . 1 0 `S4049 1 . 1 0 ]
+[s S4058 . 4 `S4053 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S4063 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S4067 __BDT 4 `S4058 1 . 4 0 `S4063 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v i2USBTransferOnePacket@handle USBTransferOnePacket `*.39VES4067  1 a 2 5 ]
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v i2USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v i2USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v i2USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"762
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 4 ]
+"798
+} 0
+"645
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"647
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 9 ]
+"645
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 8 ]
+"651
+[v USBEnableEndpoint@ep ep `uc  1 a 1 11 ]
+"665
+} 0
+"1228
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S4033 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1230
+[s S4042 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S4049 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S4053 _BD_STAT 1 `uc 1 Val 1 0 `S4033 1 . 1 0 `S4042 1 . 1 0 `S4049 1 . 1 0 ]
+[s S4058 . 4 `S4053 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S4063 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S4067 __BDT 4 `S4058 1 . 4 0 `S4063 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.39VES4067  1 a 2 6 ]
+"1228
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"1234
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 5 ]
+"1252
+} 0
+"184 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device_cdc.c
+[v _USBCheckCDCRequest USBCheckCDCRequest `(v  1 e 1 0 ]
+{
+"262
+} 0
+"2169 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Usb/Framework/usb_device.c
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+{
+"2198
+} 0
+"1518
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+{
+"1520
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 18 ]
+"1521
+[v USBCtrlTrfRxService@i i `uc  1 a 1 17 ]
+"1608
+} 0
+"1104
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+{
+"1145
+} 0
+"2223
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+{
+"2225
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 17 ]
+"2298
+} 0
+"1437
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+{
+"1439
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 0 ]
+"1491
+} 0
+"273 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Board/USBapp.c
+[v _USART_mySetLineCodingHandler USART_mySetLineCodingHandler `(v  1 e 1 0 ]
+{
+"278
+[v USART_mySetLineCodingHandler@dwBaud dwBaud `ul  1 a 4 13 ]
+"284
+} 0
+"77 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/eusart.c
+[v i2_EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"31
+} 0
+"45 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/Drivers/TMRapp.c
+[v _TMRapp_Tick TMRapp_Tick `(v  1 e 1 0 ]
+{
+"49
+} 0
+"161 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr3.c
+[v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
+{
+"181
+} 0
+"152 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"162
+} 0
+"162 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/eusart.c
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
+{
+"179
+} 0
+"181
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+{
+"200
+} 0
+"95 D:\MPLABXProjects\Lora_Mote_Firmware\Lora_Mote_Firmware/Includes/MccGenerated/cmp1.c
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+{
+"99
+} 0
