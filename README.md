@@ -2,7 +2,7 @@
 is a LoRaWAN™ Class A end-device based on the RN2903 LoRa® modem module. The board provides a quick and easy to use platform for demonstrating the capabilities of the RN2903.
 
 ![lora rn2903 microchip](https://www.microchip.com/_ImagedCopy/microchiptechnologyinc_35305403798.jpg)
-![](https://static5.arrow.com/pdfs/2016/11/15/5/40/42/970/mcp_/manual/dm164138_fig.1_1.jpg)
+![static](https://static5.arrow.com/pdfs/2016/11/15/5/40/42/970/mcp_/manual/dm164138_fig.1_1.jpg)
 
 
 
@@ -27,7 +27,7 @@ A standard USB interface is provided for connecting the Mote to a host computer.
 - Alternative Power Supply Option via Through-Hole Connectors
 
 ## Content
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_411E442440EC9056AD9FD9EB2918F88D9CF4C6356195DA74797F51BD692E2F51_1543207191687_image.png)
+![content](https://d2mxuefqeaa7sj.cloudfront.net/s_411E442440EC9056AD9FD9EB2918F88D9CF4C6356195DA74797F51BD692E2F51_1543207191687_image.png)
 
 - [RN2903](https://github.com/wiroon/software_engineering_2018/tree/master/lora_nodes/microchip/RN2903)
   - PIC18LF46K22
