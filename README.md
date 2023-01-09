@@ -2,7 +2,7 @@
 is a LoRaWAN™ Class A end-device based on the RN2903 LoRa® modem module. The board provides a quick and easy to use platform for demonstrating the capabilities of the RN2903.
 
 ![lora rn2903 microchip](https://www.microchip.com/_ImagedCopy/microchiptechnologyinc_35305403798.jpg)
-[![blue print]](https://static5.arrow.com/pdfs/2016/11/15/5/40/42/970/mcp_/manual/dm164138_fig.1_1.jpg)
+![](<https://static5.arrow.com/pdfs/2016/11/15/5/40/42/970/mcp_/manual/dm164138_fig.1_1.jpg>)
 
 
 
